@@ -1,0 +1,21 @@
+// _custom.scss - Styles for tonyaholt.com. 
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
+
+.container {
+  position:absolute;
+  height:100%; 
+  width:100%;
+  display: table;
+
+  h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+}
+
+.beaker {
+  max-width: 200px;
+}
